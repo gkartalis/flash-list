@@ -84,6 +84,9 @@
     "src",
     "jestSetup.js"
   ],
+  "precommit": [
+    "yarn build"
+  ],
   "dependencies": {
     "recyclerlistview": "4.2.0",
     "tslib": "2.4.0"
